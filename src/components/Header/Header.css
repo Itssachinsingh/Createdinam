@@ -1,0 +1,64 @@
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 10%;
+}
+
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.name h1 {
+    font-size: 1.5rem;
+}
+
+.navigation {
+    width: 45%;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.auth button {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15px 24px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 6s ease;
+    background: linear-gradient(90deg, #A156F0, #F84844, #FFAD3B);
+
+}
+
+
+.button:hover {
+    background: linear-gradient(90deg, #FFAD3B, #F84844, #A156F0);
+}

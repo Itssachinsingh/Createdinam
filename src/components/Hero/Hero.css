@@ -1,0 +1,107 @@
+.main_container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 3% 0 0 10%;
+}
+
+.left_side {
+    width: 46%;
+    margin-right: auto;
+}
+
+.right_side {
+    width: 48%;
+    /* overflow: hidden;    for mobile app image only */
+}
+
+.right_side img {
+    width: 80%;
+    object-fit: fill;
+    border-radius: 10px;
+    margin-top: 1rem;
+    /* rotate: -30deg; */
+}
+/* 
+.mobileapps {
+    rotate: 20deg;
+} */
+
+.left_side p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.get_started button {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.2rem 4rem;
+    margin-top: 2.4rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 6s ease;
+    background: linear-gradient(90deg, #A156F0, #F84844, #FFAD3B);
+
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #FFAD3B, #F84844, #A156F0);
+}
+
+
+
+.main_container3 {
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 10rem;
+    height: 4%;
+  }
+  
+  .trusted_section {
+    width: 50%;
+    padding: 0 2rem;
+  }
+  
+  .trusted_section h2 {
+    font-size: 2.7rem;
+  }
+  
+  .trusted_section p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: gray;
+  }
+  
+  .counters {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .counter {
+      font-size: 3rem;
+      font-weight: bold;
+      background: linear-gradient(90deg, #A156F0, #F84844, #FFAD3B);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block; /* Ensures the gradient is only applied to the text */
+      margin-bottom: 0.5rem; /* Space between the number and the paragraph */
+  }
+  
+  .types_of_service  {
+      background-color: black;
+      color: white;
+      font-size: 1.5rem;
+      margin-top: 0;
+      z-index: 2;
+  }

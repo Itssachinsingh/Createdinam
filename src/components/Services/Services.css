@@ -1,0 +1,46 @@
+.main_container4 {
+    margin: 7% 8%;
+
+}
+
+.service_heading {
+    font-size: 3.1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.small_div {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 2px;
+    border-radius: 10px; 
+    
+    padding: 34px 27px; 
+    background: 
+        linear-gradient(#fff, #fff) padding-box, 
+        linear-gradient(45deg, #FF00CC, #FF9900) border-box; 
+    border: 2px solid transparent; 
+    color: #000;
+}
+
+.small_div img {
+    width: 50px;
+}
+
+.small_div h4 {
+    font-size: 1.3rem;
+}
+
+.small_div p {  
+    font-size:1rem ;
+    color: gray;
+    line-height: 1.3rem;
+}
+
+.card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}

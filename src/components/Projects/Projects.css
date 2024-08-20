@@ -1,0 +1,100 @@
+.projects {
+    margin-bottom: 3rem;
+}
+
+.projects h1{
+    text-align: center;
+    font-size: 3.1rem;
+}
+.projects p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.main_container5 {
+    border: 5px solid transparent;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(45deg, #ff00cc, #ff9900) border-box;
+      padding: 2rem;
+      margin: 2rem;
+      border-radius: 10px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  width: 80%;
+ background: rgba(0, 0, 0, 0.3);  
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.thumbnail {
+    .thumbnail {
+        padding: 10px; 
+        margin: 0 20px; 
+        border-radius: 10px;
+        background-color: white; 
+        transition: transform 0.3s ease; 
+    }
+}
+
+
+.thumbnail:hover {
+    transform: scale(1.05); 
+}
+
+.thumbnail img {
+  width: 80%;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.slide-title {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+
+.grid_container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+  }
+  
+  
+  .grid_item {
+    background-color: #fff; 
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .grid_item img {
+    width: 98%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: fill;
+  }
+  
+  .grid_item_large {
+    grid-column: 2 / span 1; 
+    grid-row: 1 / span 2;
+  }
